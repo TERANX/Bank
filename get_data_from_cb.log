@@ -1,0 +1,343 @@
+INFO:root:попытка получить дату
+INFO:root:Дата успешно получена20240126
+DEBUG:root:Dtart func  get_data_from_cb
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+DEBUG:root:data successfully receved from cb
+DEBUG:root:json successfully receved 
+DEBUG:root:An empty dictionary has been created
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+INFO:root:попытка получить дату
+INFO:root:Дата успешно получена20240126
+INFO:root:попытка получить дату
+INFO:root:Дата успешно получена20240126
+DEBUG:root:Dtart func  get_data_from_cb
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+DEBUG:root:data successfully receved from cb
+DEBUG:root:json successfully receved 
+DEBUG:root:An empty dictionary has been created
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+DEBUG:root:function return data 
+INFO:root:Попытка получить дату
+INFO:root:Дата успешно получена 20240126
+INFO:root:Начинаю проверку флагового файла
+INFO:root:Продолжаю выполнение - флаговый файл отсутствует
+INFO:root:Запускаю получение данных из конфига
+INFO:root:Данные из конфига получены
+INFO:root:Пытаюсь получить данные из ЦБ
+DEBUG:root:Start func get_data_from_cb
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+DEBUG:root:data successfully received from the Central Bank
+DEBUG:root:json has been successfully received
+DEBUG:root:An empty dictionary has been created
+DEBUG:root:fuction return data {'AUD': 58.857, 'AZN': 52.656, 'GBP': 113.685, 'AMD': 0.222, 'BYN': 28.112, 'BGN': 49.856, 'BRL': 18.184, 'HUF': 0.251, 'VND': 0.004, 'HKD': 11.476, 'GEL': 33.44, 'DKK': 13.078, 'AED': 24.375, 'USD': 89.516, 'EUR': 97.094, 'EGP': 2.898, 'INR': 1.077, 'IDR': 0.006, 'KZT': 0.201, 'CAD': 66.328, 'QAR': 24.592, 'KGS': 1.002, 'CNY': 12.438, 'MDL': 5.047, 'NZD': 54.658, 'NOK': 8.561, 'PLN': 22.161, 'RON': 19.54, 'XDR': 119.307, 'SGD': 66.818, 'TJS': 8.174, 'THB': 2.509, 'TRY': 2.96, 'TMT': 25.576, 'UZS': 0.007, 'UAH': 2.382, 'CZK': 3.938, 'SEK': 8.591, 'CHF': 103.487, 'RSD': 0.828, 'ZAR': 4.732, 'KRW': 0.067, 'JPY': 0.606}
+INFO:root:Получил данные из ЦБ
+INFO:root:Пытаюсь создать подключение к БД
+INFO:root:Создал подключение к БД
+INFO:root:Пытаюсь внести данные в БД
+INFO:root:Внес данные в БД
+INFO:root:Проверяю результат внесения в бд
+INFO:root:Данные внесены в БД, флаговый файл создан!
+INFO:root:Попытка получить дату
+INFO:root:Дата успешно получена 20240126
+INFO:root:Начинаю проверку флагового файла
+INFO:root:Продолжаю выполнение - флаговый файл отсутствует
+INFO:root:Запускаю получение данных из конфига
+INFO:root:Данные из конфига получены
+INFO:root:Пытаюсь получить данные из ЦБ
+DEBUG:root:Start func get_data_from_cb
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+DEBUG:root:data successfully received from the Central Bank
+DEBUG:root:json has been successfully received
+DEBUG:root:An empty dictionary has been created
+DEBUG:root:fuction return data {'AUD': 58.857, 'AZN': 52.656, 'GBP': 113.685, 'AMD': 0.222, 'BYN': 28.112, 'BGN': 49.856, 'BRL': 18.184, 'HUF': 0.251, 'VND': 0.004, 'HKD': 11.476, 'GEL': 33.44, 'DKK': 13.078, 'AED': 24.375, 'USD': 89.516, 'EUR': 97.094, 'EGP': 2.898, 'INR': 1.077, 'IDR': 0.006, 'KZT': 0.201, 'CAD': 66.328, 'QAR': 24.592, 'KGS': 1.002, 'CNY': 12.438, 'MDL': 5.047, 'NZD': 54.658, 'NOK': 8.561, 'PLN': 22.161, 'RON': 19.54, 'XDR': 119.307, 'SGD': 66.818, 'TJS': 8.174, 'THB': 2.509, 'TRY': 2.96, 'TMT': 25.576, 'UZS': 0.007, 'UAH': 2.382, 'CZK': 3.938, 'SEK': 8.591, 'CHF': 103.487, 'RSD': 0.828, 'ZAR': 4.732, 'KRW': 0.067, 'JPY': 0.606}
+INFO:root:Получил данные из ЦБ
+INFO:root:Пытаюсь создать подключение к БД
+INFO:root:Создал подключение к БД
+INFO:root:Пытаюсь внести данные в БД
+INFO:root:Внес данные в БД
+INFO:root:Проверяю результат внесения в бд
+INFO:root:Данные внесены в БД, флаговый файл создан!
+[2024-01-30 18:39:39,816] [INFO] => Попытка получить дату
+[2024-01-30 18:39:39,816] [INFO] => Дата успешно получена 20240130
+[2024-01-30 18:39:39,816] [INFO] => Начинаю проверку флагового файла
+[2024-01-30 18:39:39,816] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-01-30 18:39:39,816] [INFO] => Запускаю получение данных из конфига
+[2024-01-30 18:39:39,817] [INFO] => Данные из конфига получены
+[2024-01-30 18:39:39,817] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-01-30 18:39:39,817] [DEBUG] => Start func get_data_from_cb
+[2024-01-30 18:39:39,826] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-01-30 18:39:40,121] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2050
+[2024-01-30 18:39:40,124] [DEBUG] => data successfully received from the Central Bank
+[2024-01-30 18:39:40,124] [DEBUG] => json has been successfully received
+[2024-01-30 18:39:40,125] [DEBUG] => An empty dictionary has been created
+[2024-01-30 18:39:40,125] [DEBUG] => fuction return data {'AUD': 59.011, 'AZN': 52.523, 'GBP': 113.2, 'AMD': 0.221, 'BYN': 28.104, 'BGN': 49.41, 'BRL': 18.14, 'HUF': 0.248, 'VND': 0.004, 'HKD': 11.444, 'GEL': 33.35, 'DKK': 12.965, 'AED': 24.313, 'USD': 89.289, 'EUR': 96.79, 'EGP': 2.89, 'INR': 1.074, 'IDR': 0.006, 'KZT': 0.198, 'CAD': 66.425, 'QAR': 24.53, 'KGS': 1.0, 'CNY': 12.407, 'MDL': 5.032, 'NZD': 54.841, 'NOK': 8.548, 'PLN': 22.155, 'RON': 19.442, 'XDR': 118.681, 'SGD': 66.668, 'TJS': 8.151, 'THB': 2.525, 'TRY': 2.946, 'TMT': 25.511, 'UZS': 0.007, 'UAH': 2.357, 'CZK': 3.893, 'SEK': 8.51, 'CHF': 103.451, 'RSD': 0.825, 'ZAR': 4.733, 'KRW': 0.067, 'JPY': 0.606}
+[2024-01-30 18:39:40,126] [INFO] => Получил данные из ЦБ
+[2024-01-30 18:39:40,126] [INFO] => Пытаюсь создать подключение к БД
+[2024-01-30 18:39:40,128] [INFO] => Создал подключение к БД
+[2024-01-30 18:39:40,128] [INFO] => Пытаюсь внести данные в БД
+[2024-01-30 18:39:40,179] [INFO] => Внес данные в БД
+[2024-01-30 18:39:40,179] [INFO] => Проверяю результат внесения в бд
+[2024-01-30 18:39:40,180] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-01-30 19:31:44,251] [INFO] => Попытка получить дату
+[2024-01-30 19:31:44,251] [INFO] => Дата успешно получена 20240130
+[2024-01-30 19:31:44,251] [INFO] => Начинаю проверку флагового файла
+[2024-01-30 19:31:44,252] [INFO] => Заканчиваю выполнение - флаговый файл сушествует
+[2024-01-30 19:32:56,059] [INFO] => Попытка получить дату
+[2024-01-30 19:32:56,059] [INFO] => Дата успешно получена 20240130
+[2024-01-30 19:32:56,059] [INFO] => Начинаю проверку флагового файла
+[2024-01-30 19:32:56,059] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-01-30 19:32:56,059] [INFO] => Запускаю получение данных из конфига
+[2024-01-30 19:32:56,061] [INFO] => Данные из конфига получены
+[2024-01-30 19:32:56,061] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-01-30 19:32:56,061] [DEBUG] => Start func get_data_from_cb
+[2024-01-30 19:32:56,065] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-01-30 19:32:56,298] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2050
+[2024-01-30 19:32:56,299] [DEBUG] => data successfully received from the Central Bank
+[2024-01-30 19:32:56,299] [DEBUG] => json has been successfully received
+[2024-01-30 19:32:56,299] [DEBUG] => An empty dictionary has been created
+[2024-01-30 19:32:56,299] [DEBUG] => fuction return data {'AUD': 59.011, 'AZN': 52.523, 'GBP': 113.2, 'AMD': 0.221, 'BYN': 28.104, 'BGN': 49.41, 'BRL': 18.14, 'HUF': 0.248, 'VND': 0.004, 'HKD': 11.444, 'GEL': 33.35, 'DKK': 12.965, 'AED': 24.313, 'USD': 89.289, 'EUR': 96.79, 'EGP': 2.89, 'INR': 1.074, 'IDR': 0.006, 'KZT': 0.198, 'CAD': 66.425, 'QAR': 24.53, 'KGS': 1.0, 'CNY': 12.407, 'MDL': 5.032, 'NZD': 54.841, 'NOK': 8.548, 'PLN': 22.155, 'RON': 19.442, 'XDR': 118.681, 'SGD': 66.668, 'TJS': 8.151, 'THB': 2.525, 'TRY': 2.946, 'TMT': 25.511, 'UZS': 0.007, 'UAH': 2.357, 'CZK': 3.893, 'SEK': 8.51, 'CHF': 103.451, 'RSD': 0.825, 'ZAR': 4.733, 'KRW': 0.067, 'JPY': 0.606}
+[2024-01-30 19:32:56,301] [INFO] => Получил данные из ЦБ
+[2024-01-30 19:32:56,301] [INFO] => Пытаюсь создать подключение к БД
+[2024-01-30 19:32:56,308] [INFO] => Создал подключение к БД
+[2024-01-30 19:32:56,308] [INFO] => Пытаюсь внести данные в БД
+[2024-01-30 19:32:56,345] [INFO] => Внес данные в БД
+[2024-01-30 19:32:56,346] [INFO] => Проверяю результат внесения в бд
+[2024-01-30 19:32:56,346] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-01-30 19:34:12,451] [INFO] => Попытка получить дату
+[2024-01-30 19:34:12,451] [INFO] => Дата успешно получена 20240130
+[2024-01-30 19:34:12,451] [INFO] => Начинаю проверку флагового файла
+[2024-01-30 19:34:12,451] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-01-30 19:34:12,452] [INFO] => Запускаю получение данных из конфига
+[2024-01-30 19:34:12,452] [INFO] => Данные из конфига получены
+[2024-01-30 19:34:12,452] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-01-30 19:34:12,452] [DEBUG] => Start func get_data_from_cb
+[2024-01-30 19:34:12,456] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-01-30 19:34:12,657] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2050
+[2024-01-30 19:34:12,657] [DEBUG] => data successfully received from the Central Bank
+[2024-01-30 19:34:12,657] [DEBUG] => json has been successfully received
+[2024-01-30 19:34:12,657] [DEBUG] => An empty dictionary has been created
+[2024-01-30 19:34:12,658] [DEBUG] => fuction return data {'AUD': 59.011, 'AZN': 52.523, 'GBP': 113.2, 'AMD': 0.221, 'BYN': 28.104, 'BGN': 49.41, 'BRL': 18.14, 'HUF': 0.248, 'VND': 0.004, 'HKD': 11.444, 'GEL': 33.35, 'DKK': 12.965, 'AED': 24.313, 'USD': 89.289, 'EUR': 96.79, 'EGP': 2.89, 'INR': 1.074, 'IDR': 0.006, 'KZT': 0.198, 'CAD': 66.425, 'QAR': 24.53, 'KGS': 1.0, 'CNY': 12.407, 'MDL': 5.032, 'NZD': 54.841, 'NOK': 8.548, 'PLN': 22.155, 'RON': 19.442, 'XDR': 118.681, 'SGD': 66.668, 'TJS': 8.151, 'THB': 2.525, 'TRY': 2.946, 'TMT': 25.511, 'UZS': 0.007, 'UAH': 2.357, 'CZK': 3.893, 'SEK': 8.51, 'CHF': 103.451, 'RSD': 0.825, 'ZAR': 4.733, 'KRW': 0.067, 'JPY': 0.606}
+[2024-01-30 19:34:12,659] [INFO] => Получил данные из ЦБ
+[2024-01-30 19:34:12,659] [INFO] => Пытаюсь создать подключение к БД
+[2024-01-30 19:34:12,661] [INFO] => Создал подключение к БД
+[2024-01-30 19:34:12,662] [INFO] => Пытаюсь внести данные в БД
+[2024-01-30 19:34:12,689] [INFO] => Внес данные в БД
+[2024-01-30 19:34:12,689] [INFO] => Проверяю результат внесения в бд
+[2024-01-30 19:34:12,689] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-01-30 19:51:56,675] [INFO] => Попытка получить дату
+[2024-01-30 19:51:56,675] [INFO] => Дата успешно получена 20240130
+[2024-01-30 19:51:56,675] [INFO] => Начинаю проверку флагового файла
+[2024-01-30 19:51:56,675] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-01-30 19:51:56,675] [INFO] => Запускаю получение данных из конфига
+[2024-01-30 19:51:56,676] [INFO] => Данные из конфига получены
+[2024-01-30 19:51:56,676] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-01-30 19:51:56,676] [DEBUG] => Start func get_data_from_cb
+[2024-01-30 19:51:56,679] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-01-30 19:51:57,288] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2050
+[2024-01-30 19:51:57,289] [DEBUG] => data successfully received from the Central Bank
+[2024-01-30 19:51:57,289] [DEBUG] => json has been successfully received
+[2024-01-30 19:51:57,289] [DEBUG] => An empty dictionary has been created
+[2024-01-30 19:51:57,289] [DEBUG] => fuction return data {'AUD': 59.011, 'AZN': 52.523, 'GBP': 113.2, 'AMD': 0.221, 'BYN': 28.104, 'BGN': 49.41, 'BRL': 18.14, 'HUF': 0.248, 'VND': 0.004, 'HKD': 11.444, 'GEL': 33.35, 'DKK': 12.965, 'AED': 24.313, 'USD': 89.289, 'EUR': 96.79, 'EGP': 2.89, 'INR': 1.074, 'IDR': 0.006, 'KZT': 0.198, 'CAD': 66.425, 'QAR': 24.53, 'KGS': 1.0, 'CNY': 12.407, 'MDL': 5.032, 'NZD': 54.841, 'NOK': 8.548, 'PLN': 22.155, 'RON': 19.442, 'XDR': 118.681, 'SGD': 66.668, 'TJS': 8.151, 'THB': 2.525, 'TRY': 2.946, 'TMT': 25.511, 'UZS': 0.007, 'UAH': 2.357, 'CZK': 3.893, 'SEK': 8.51, 'CHF': 103.451, 'RSD': 0.825, 'ZAR': 4.733, 'KRW': 0.067, 'JPY': 0.606}
+[2024-01-30 19:51:57,290] [INFO] => Получил данные из ЦБ
+[2024-01-30 19:51:57,290] [INFO] => Пытаюсь создать подключение к БД
+[2024-01-30 19:51:57,292] [INFO] => Создал подключение к БД
+[2024-01-30 19:51:57,292] [INFO] => Пытаюсь внести данные в БД
+[2024-01-30 19:51:57,305] [INFO] => Внес данные в БД
+[2024-01-30 19:51:57,305] [INFO] => Проверяю результат внесения в бд
+[2024-01-30 19:51:57,306] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-01-30 20:00:37,863] [INFO] => Попытка получить дату
+[2024-01-30 20:00:37,863] [INFO] => Дата успешно получена 20240130
+[2024-01-30 20:00:37,863] [INFO] => Начинаю проверку флагового файла
+[2024-01-30 20:00:37,863] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-01-30 20:00:37,863] [INFO] => Запускаю получение данных из конфига
+[2024-01-30 20:00:37,864] [INFO] => Данные из конфига получены
+[2024-01-30 20:00:37,864] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-01-30 20:00:37,864] [DEBUG] => Start func get_data_from_cb
+[2024-01-30 20:00:37,867] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-01-30 20:00:38,200] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2050
+[2024-01-30 20:00:38,597] [DEBUG] => data successfully received from the Central Bank
+[2024-01-30 20:00:38,597] [DEBUG] => json has been successfully received
+[2024-01-30 20:00:38,597] [DEBUG] => An empty dictionary has been created
+[2024-01-30 20:00:38,598] [DEBUG] => fuction return data {'AUD': 59.011, 'AZN': 52.523, 'GBP': 113.2, 'AMD': 0.221, 'BYN': 28.104, 'BGN': 49.41, 'BRL': 18.14, 'HUF': 0.248, 'VND': 0.004, 'HKD': 11.444, 'GEL': 33.35, 'DKK': 12.965, 'AED': 24.313, 'USD': 89.289, 'EUR': 96.79, 'EGP': 2.89, 'INR': 1.074, 'IDR': 0.006, 'KZT': 0.198, 'CAD': 66.425, 'QAR': 24.53, 'KGS': 1.0, 'CNY': 12.407, 'MDL': 5.032, 'NZD': 54.841, 'NOK': 8.548, 'PLN': 22.155, 'RON': 19.442, 'XDR': 118.681, 'SGD': 66.668, 'TJS': 8.151, 'THB': 2.525, 'TRY': 2.946, 'TMT': 25.511, 'UZS': 0.007, 'UAH': 2.357, 'CZK': 3.893, 'SEK': 8.51, 'CHF': 103.451, 'RSD': 0.825, 'ZAR': 4.733, 'KRW': 0.067, 'JPY': 0.606}
+[2024-01-30 20:00:38,599] [INFO] => Получил данные из ЦБ
+[2024-01-30 20:00:38,600] [INFO] => Пытаюсь создать подключение к БД
+[2024-01-30 20:00:38,602] [INFO] => Создал подключение к БД
+[2024-01-30 20:00:38,602] [INFO] => Пытаюсь внести данные в БД
+[2024-01-30 20:00:38,632] [INFO] => Внес данные в БД
+[2024-01-30 20:00:38,632] [INFO] => Проверяю результат внесения в бд
+[2024-01-30 20:00:38,632] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-02-01 22:02:29,422] [INFO] => Попытка получить дату
+[2024-02-01 22:02:29,423] [INFO] => Дата успешно получена 20240201
+[2024-02-01 22:02:29,423] [INFO] => Начинаю проверку флагового файла
+[2024-02-01 22:02:29,423] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-02-01 22:02:29,423] [INFO] => Запускаю получение данных из конфига
+[2024-02-01 22:02:29,423] [INFO] => Данные из конфига получены
+[2024-02-01 22:02:29,423] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-02-01 22:02:29,423] [DEBUG] => Start func get_data_from_cb
+[2024-02-01 22:02:29,432] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-02-01 22:02:29,628] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2050
+[2024-02-01 22:02:29,631] [DEBUG] => data successfully received from the Central Bank
+[2024-02-01 22:02:29,632] [DEBUG] => json has been successfully received
+[2024-02-01 22:02:29,633] [DEBUG] => An empty dictionary has been created
+[2024-02-01 22:02:29,633] [DEBUG] => fuction return data {'AUD': 59.128, 'AZN': 53.076, 'GBP': 114.89, 'AMD': 0.223, 'BYN': 28.188, 'BGN': 49.994, 'BRL': 18.216, 'HUF': 0.253, 'VND': 0.004, 'HKD': 11.559, 'GEL': 33.645, 'DKK': 13.116, 'AED': 24.569, 'USD': 90.23, 'EUR': 97.401, 'EGP': 2.921, 'INR': 1.086, 'IDR': 0.006, 'KZT': 0.202, 'CAD': 67.351, 'QAR': 24.788, 'KGS': 1.01, 'CNY': 12.536, 'MDL': 5.079, 'NZD': 55.239, 'NOK': 8.614, 'PLN': 22.531, 'RON': 19.578, 'XDR': 119.995, 'SGD': 67.361, 'TJS': 8.234, 'THB': 2.541, 'TRY': 2.976, 'TMT': 25.78, 'UZS': 0.007, 'UAH': 2.402, 'CZK': 3.934, 'SEK': 8.678, 'CHF': 104.566, 'RSD': 0.832, 'ZAR': 4.821, 'KRW': 0.068, 'JPY': 0.615}
+[2024-02-01 22:02:29,639] [INFO] => Получил данные из ЦБ
+[2024-02-01 22:02:29,639] [INFO] => Пытаюсь создать подключение к БД
+[2024-02-01 22:02:29,656] [INFO] => Создал подключение к БД
+[2024-02-01 22:02:29,656] [INFO] => Пытаюсь внести данные в БД
+[2024-02-01 22:02:29,702] [INFO] => Внес данные в БД
+[2024-02-01 22:02:29,702] [INFO] => Проверяю результат внесения в бд
+[2024-02-01 22:02:29,703] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-02-02 14:13:47,862] [INFO] => Попытка получить дату
+[2024-02-02 14:13:47,862] [INFO] => Дата успешно получена 20240202
+[2024-02-02 14:13:47,862] [INFO] => Начинаю проверку флагового файла
+[2024-02-02 14:13:47,862] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-02-02 14:13:47,862] [INFO] => Запускаю получение данных из конфига
+[2024-02-02 14:13:47,863] [INFO] => Данные из конфига получены
+[2024-02-02 14:13:47,863] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-02-02 14:13:47,863] [DEBUG] => Start func get_data_from_cb
+[2024-02-02 14:13:47,870] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-02-02 14:13:48,048] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2038
+[2024-02-02 14:13:48,048] [DEBUG] => data successfully received from the Central Bank
+[2024-02-02 14:13:48,049] [DEBUG] => json has been successfully received
+[2024-02-02 14:13:48,049] [DEBUG] => An empty dictionary has been created
+[2024-02-02 14:13:48,049] [DEBUG] => fuction return data {'AUD': 59.128, 'AZN': 53.076, 'GBP': 114.89, 'AMD': 0.223, 'BYN': 28.188, 'BGN': 49.994, 'BRL': 18.216, 'HUF': 0.253, 'VND': 0.004, 'HKD': 11.559, 'GEL': 33.645, 'DKK': 13.116, 'AED': 24.569, 'USD': 90.23, 'EUR': 97.401, 'EGP': 2.921, 'INR': 1.086, 'IDR': 0.006, 'KZT': 0.202, 'CAD': 67.351, 'QAR': 24.788, 'KGS': 1.01, 'CNY': 12.536, 'MDL': 5.079, 'NZD': 55.239, 'NOK': 8.614, 'PLN': 22.531, 'RON': 19.578, 'XDR': 119.995, 'SGD': 67.361, 'TJS': 8.234, 'THB': 2.541, 'TRY': 2.976, 'TMT': 25.78, 'UZS': 0.007, 'UAH': 2.402, 'CZK': 3.934, 'SEK': 8.678, 'CHF': 104.566, 'RSD': 0.832, 'ZAR': 4.821, 'KRW': 0.068, 'JPY': 0.615}
+[2024-02-02 14:13:48,050] [INFO] => Получил данные из ЦБ
+[2024-02-02 14:13:48,050] [INFO] => Пытаюсь создать подключение к БД
+[2024-02-02 14:13:48,069] [INFO] => Создал подключение к БД
+[2024-02-02 14:13:48,069] [INFO] => Пытаюсь внести данные в БД
+[2024-02-02 14:13:48,145] [INFO] => Внес данные в БД
+[2024-02-02 14:13:48,145] [INFO] => Проверяю результат внесения в бд
+[2024-02-02 14:13:48,146] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-02-02 14:16:42,045] [INFO] => Попытка получить дату
+[2024-02-02 14:16:42,045] [INFO] => Дата успешно получена 20240202
+[2024-02-02 14:16:42,045] [INFO] => Начинаю проверку флагового файла
+[2024-02-02 14:16:42,045] [INFO] => Заканчиваю выполнение - флаговый файл сушествует
+[2024-02-07 18:37:55,634] [INFO] => Попытка получить дату
+[2024-02-07 18:37:55,634] [INFO] => Дата успешно получена 20240207
+[2024-02-07 18:37:55,634] [INFO] => Начинаю проверку флагового файла
+[2024-02-07 18:37:55,634] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-02-07 18:37:55,634] [INFO] => Запускаю получение данных из конфига
+[2024-02-07 18:37:55,635] [INFO] => Данные из конфига получены
+[2024-02-07 18:37:55,635] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-02-07 18:37:55,635] [DEBUG] => Start func get_data_from_cb
+[2024-02-07 18:37:55,647] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-02-07 18:37:55,905] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+[2024-02-07 18:37:55,908] [DEBUG] => data successfully received from the Central Bank
+[2024-02-07 18:37:55,908] [DEBUG] => json has been successfully received
+[2024-02-07 18:37:55,908] [DEBUG] => An empty dictionary has been created
+[2024-02-07 18:37:55,908] [DEBUG] => fuction return data {'AUD': 59.513, 'AZN': 53.618, 'GBP': 114.641, 'AMD': 0.225, 'BYN': 28.286, 'BGN': 50.068, 'BRL': 18.346, 'HUF': 0.253, 'VND': 0.004, 'HKD': 11.676, 'GEL': 34.239, 'DKK': 13.126, 'AED': 24.82, 'USD': 91.151, 'EUR': 98.094, 'EGP': 2.951, 'INR': 1.097, 'IDR': 0.006, 'KZT': 0.201, 'CAD': 67.49, 'QAR': 25.042, 'KGS': 1.019, 'CNY': 12.648, 'MDL': 5.116, 'NZD': 55.58, 'NOK': 8.546, 'PLN': 22.584, 'RON': 19.718, 'XDR': 120.702, 'SGD': 67.856, 'TJS': 8.32, 'THB': 2.566, 'TRY': 2.985, 'TMT': 26.043, 'UZS': 0.007, 'UAH': 2.423, 'CZK': 3.928, 'SEK': 8.603, 'CHF': 104.627, 'RSD': 0.838, 'ZAR': 4.835, 'KRW': 0.069, 'JPY': 0.617}
+[2024-02-07 18:37:55,910] [INFO] => Получил данные из ЦБ
+[2024-02-07 18:37:55,910] [INFO] => Пытаюсь создать подключение к БД
+[2024-02-07 18:37:55,912] [INFO] => Создал подключение к БД
+[2024-02-07 18:37:55,912] [INFO] => Пытаюсь внести данные в БД
+[2024-02-07 18:37:55,959] [INFO] => Внес данные в БД
+[2024-02-07 18:37:55,959] [INFO] => Проверяю результат внесения в бд
+[2024-02-07 18:37:55,959] [INFO] => Данные внесены в БД, флаговый файл создан!
+[2024-02-09 18:46:10,529] [INFO] => Попытка получить дату
+[2024-02-09 18:46:10,530] [INFO] => Дата успешно получена 20240209
+[2024-02-09 18:46:10,530] [INFO] => Начинаю проверку флагового файла
+[2024-02-09 18:46:10,530] [INFO] => Продолжаю выполнение - флаговый файл отсутствует
+[2024-02-09 18:46:10,530] [INFO] => Запускаю получение данных из конфига
+[2024-02-09 18:46:10,531] [INFO] => Данные из конфига получены
+[2024-02-09 18:46:10,531] [INFO] => Пытаюсь получить данные из ЦБ
+[2024-02-09 18:46:10,531] [DEBUG] => Start func get_data_from_cb
+[2024-02-09 18:46:10,539] [DEBUG] => Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+[2024-02-09 18:46:10,785] [DEBUG] => https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2053
+[2024-02-09 18:46:10,786] [DEBUG] => data successfully received from the Central Bank
+[2024-02-09 18:46:10,786] [DEBUG] => json has been successfully received
+[2024-02-09 18:46:10,786] [DEBUG] => An empty dictionary has been created
+[2024-02-09 18:46:10,786] [DEBUG] => fuction return data {'AUD': 59.006, 'AZN': 53.465, 'GBP': 114.567, 'AMD': 0.225, 'BYN': 28.265, 'BGN': 49.994, 'BRL': 18.251, 'HUF': 0.252, 'VND': 0.004, 'HKD': 11.644, 'GEL': 34.204, 'DKK': 13.114, 'AED': 24.749, 'USD': 90.89, 'EUR': 97.936, 'EGP': 2.942, 'INR': 1.097, 'IDR': 0.006, 'KZT': 0.202, 'CAD': 67.491, 'QAR': 24.97, 'KGS': 1.016, 'CNY': 12.541, 'MDL': 5.097, 'NZD': 55.575, 'NOK': 8.568, 'PLN': 22.668, 'RON': 19.667, 'XDR': 120.418, 'SGD': 67.481, 'TJS': 8.293, 'THB': 2.531, 'TRY': 2.974, 'TMT': 25.969, 'UZS': 0.007, 'UAH': 2.419, 'CZK': 3.919, 'SEK': 8.676, 'CHF': 103.791, 'RSD': 0.836, 'ZAR': 4.781, 'KRW': 0.068, 'JPY': 0.608}
+[2024-02-09 18:46:10,788] [INFO] => Получил данные из ЦБ
+[2024-02-09 18:46:10,788] [INFO] => Пытаюсь создать подключение к БД
+[2024-02-09 18:46:10,802] [INFO] => Создал подключение к БД
+[2024-02-09 18:46:10,802] [INFO] => Пытаюсь внести данные в БД
+[2024-02-09 18:46:10,849] [INFO] => Внес данные в БД
+[2024-02-09 18:46:10,849] [INFO] => Проверяю результат внесения в бд
+[2024-02-09 18:46:10,849] [INFO] => Данные внесены в БД, флаговый файл создан!
